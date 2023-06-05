@@ -1,0 +1,37 @@
+@media (min-width: 1080px) {
+    .retangulo {
+        width: 20vw;
+        height: 19vh;
+    }
+
+    .barra {
+        width: 20vw;
+        height: 1px;
+        background: #464646;
+        opacity: 0.1;
+    }
+
+    .consultas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1080px) {
+    .retangulo {
+        width: 40vw;
+        height: 15vh;
+    }
+
+    .barra {
+        width: 40vw;
+        height: 1px;
+        background: #464646;
+        opacity: 0.1;
+    }
+
+    .consultas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

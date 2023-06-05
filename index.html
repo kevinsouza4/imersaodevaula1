@@ -9,23 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/1b2ea1275e.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="estilos/consultas.css">
+  <link rel="stylesheet" href="estilos/reset.css">
+  <link rel="stylesheet" href="estilos/responsivo.css">
+  <link rel="stylesheet" href="estilos/cabecalho.css">
+  <link rel="stylesheet" href="estilos/rodape.css">
+  <link rel="stylesheet" href="estilos/style.css">
   <title>mobilefirst</title>
 </head>
-<header>
-  <div class="barra-superior">
-    <div id="horas">
-      <Div class="horas">
-        <h1>03:33</h1>
-      </Div>
-      <div class="icones">
-        <img src="icones/Ícones 1.png">
-      </div>
-    </div>
-  </div>
-</header>
-
 <body>
 <section id="consultas">
   <div class="container">
@@ -48,10 +39,9 @@
   </div>
 
   <div class="container">
-    <div class="consultas">
 
       <!--PRIMEIRO-->
-
+      <div class="consultas">
       <div class="retangulo">
         <div class="coluna">
           <Div class="foto">
@@ -120,17 +110,15 @@
           <button class="audio">Ligar por áudio</button>
         </div>
       </div>
-
+      </div>
       <!--Amanhã inicio-->
-     
-      <div class="container">
+
         <div class="Dias">
           <h1>Amanhã</h1>
         </div>
-      </div>
 
       <!--QUARTO-->
-
+      <div class="consultas">
       <div class="retangulo">
         <div class="coluna">
           <div class="foto">
@@ -225,14 +213,15 @@
           <button class="endereco">Ver endereço</button>
         </div>
       </div>
+      </div>
 
-      <div class="container">
         <div class="Dias">
           <h1>Quarta-feira</h1>
         </div>
-      </div>
+
 
       <!--OITAVO-->
+      <div class="consultas">
       <div class="retangulo">
         <div class="coluna">
           <div class="foto">
@@ -319,14 +308,36 @@
           <button class="endereco">Ver endereço</button>
         </div>
       </div>
+      </div>
     </section>
 
-  <div class="barra-inferior">
-    <a href="#consultas">Consultas</a>
-    <a>Clientes</a>
-    <a>Relatorios</a>
-    <a>Menu</a>
-  </div>
+    <section class="rodape">
+      <nav>
+        <ul>
+
+          <li class="rodape__acao">
+            <span class="consultas-icone"></span>
+            Consultas
+          </li>
+
+          <li class="rodape__acao">
+            <span class="clientes-icone"></span>
+            Clientes
+          </li>
+
+          <li class="rodape__acao">
+            <span class="relatorios-icone"></span>
+            Relatórios
+          </li>
+
+          <li class="rodape__acao">
+            <span class="menu-icone"></span>
+            Menu
+          </li>
+
+        </ul>
+      </nav>
+    </section>
 
 </body>
 
